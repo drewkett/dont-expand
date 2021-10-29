@@ -1,3 +1,4 @@
+# dont-expand
 This library provides macro implementations for macros found in the rust std
 library. The purpose of the macros in this library is to do nothing. The 
 macros are intended to be imported as needed to shadow the std macros. This
