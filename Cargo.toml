@@ -1,0 +1,14 @@
+[package]
+name = "dont-expand"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andrew Burkett <burkett.andrew@gmail.com>"]
+description = "Dummy macros to shadow macros to avoid expansion in cargo expand"
+repository = "https://github.com/drewkett/dont-expand"
+keywords = ["hide", "skip", "macros", "expand"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+paste = "1"
